@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+ *, *:before, *:after {
+   box-sizing: inherit;
+ }
+
 body {
   background-image: url(../img/bg5.jpg);
   background-attachment: fixed;
@@ -87,6 +95,10 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 3px;
 }
 
+.info-section header {
+  text-align: center;
+}
+
 .info-section header h2:after {
     border-bottom: 3px solid black;
     content:"";
@@ -132,13 +144,13 @@ h1, h2, h3, h4, h5, h6 {
   clear:both;
 }
 
-.info-section {
+.whatido {
   text-align: center;
 }
 
-/*.whatido {
-  padding-bottom:  200px;
-}*/
+.education-experience {
+  padding-top:  250px;
+}
 
 .education-experience__list img {
   width: 180px;
@@ -157,5 +169,23 @@ h1, h2, h3, h4, h5, h6 {
 
 .education-experience__list__description {
   overflow: hidden;
+  padding-left: 30px;
+}
+
+.photos__list {
+  list-style: none;
+  padding: 0px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.photos__list li{
+    padding: 10px;
+    width: 25%;
+    float: left;
+}
+
+.photos__list li img{
+    width: 100%;
 }
 

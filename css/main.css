@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 3px;
 }
 
-.whatido_title:after {
+.info-section header h2:after {
     border-bottom: 3px solid black;
     content:"";
     display: block;
@@ -132,7 +132,30 @@ h1, h2, h3, h4, h5, h6 {
   clear:both;
 }
 
-.whatido {
+.info-section {
   text-align: center;
+}
+
+/*.whatido {
+  padding-bottom:  200px;
+}*/
+
+.education-experience__list img {
+  width: 180px;
+  float: left;
+}
+
+.education-experience__list {
+  list-style: none;
+  padding: 0px;
+  margin: 0;
+}
+
+.education-experience__list  li {
+  margin-bottom: 50px;
+}
+
+.education-experience__list__description {
+  overflow: hidden;
 }
 
